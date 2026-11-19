@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>NitroAlum Marketing Site - Developer Handoff</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section class="page-hero">
+  <div class="wrap">
+    <h1>Developer Handoff</h1>
+    <p>Unlisted notes for whoever maintains this site. Not linked publicly; share by URL only.</p>
+  </div>
+</section>
+<section class="block tight">
+  <div class="wrap">
+    <div class="panel">
+      <h3>The Model</h3>
+      <p>This repo is a detached static site on GitHub Pages. It is the public face of NitroAlum for search engines and prospects. The application lives separately at the apex domain and shares no code, backend, or pipeline with this site.</p>
+      <h3>Layout</h3>
+      <ul>
+        <li>index.html, features.html, get-started.html, about.html: public pages</li>
+        <li>styles.css, brand/, fonts/: shared assets, no build step</li>
+        <li>sitemap.xml, robots.txt, CNAME: SEO and domain plumbing</li>
+        <li>README.md, OWNER-GUIDE.md: the maintenance docs (mirror: readme-9x4k.html)</li>
+      </ul>
+      <h3>Hard Rules</h3>
+      <ul>
+        <li>Never delete CNAME; it binds www.nitroalum.com to Pages.</li>
+        <li>App links are a contract: https://nitroalum.com/ and https://nitroalum.com/sign-up stay on every page.</li>
+        <li>Unique title, description, canonical, one h1 per page. Update sitemap.xml on any add or rename.</li>
+        <li>Keep the JSON-LD block on index.html.</li>
+        <li>No em or en dashes; Title Case with the three letter rule; no made up names.</li>
+        <li>Collaborators get this repo only, never the app repo or servers.</li>
+      </ul>
+      <h3>Deploys</h3>
+      <p>Push to main. Pages republishes automatically. There is no CI and nothing to build.</p>
+    </div>
+  </div>
+</section>
+</body>
+</html>

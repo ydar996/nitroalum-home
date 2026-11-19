@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /dev-handoff-9x4k.html
+Disallow: /readme-9x4k.html
+
+Sitemap: https://www.nitroalum.com/sitemap.xml
