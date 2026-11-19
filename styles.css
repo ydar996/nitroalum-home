@@ -446,7 +446,7 @@ table.plain tr:last-child td { border-bottom: none; }
     align-items: center;
   }
 }
-.hero-visual { display: flex; justify-content: center; }
+.hero-visual { display: flex; flex-direction: column; align-items: center; }
 .mock {
   width: 100%;
   max-width: 440px;
