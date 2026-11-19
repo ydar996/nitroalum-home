@@ -504,3 +504,4 @@ table.plain tr:last-child td { border-bottom: none; }
 .mr .mbar { flex: 1; }
 .mr b { color: #fff; font-weight: 700; font-size: 10.5px; min-width: 34px; text-align: right; }
 .mock-cap { text-align: center; font-size: 11.5px; color: #7d8ac4; margin: 10px 0 0; font-weight: 600; }
+.mr .mbar i { background: linear-gradient(90deg, #7c3aed, #06b6d4); }
