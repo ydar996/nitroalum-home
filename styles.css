@@ -430,6 +430,7 @@ table.plain tr:last-child td { border-bottom: none; }
     border: 1px solid rgb(255 255 255 / 0.25);
     color: #e3e8ff;
   }
+  .site-foot .cols { margin-left: 0; gap: 44px; }
   .hero .wrap { padding: 60px 22px 70px; }
   .band { padding: 44px 24px; }
 }
