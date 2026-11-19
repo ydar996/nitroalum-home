@@ -410,7 +410,7 @@ table.plain tr:last-child td { border-bottom: none; }
 }
 @media (max-width: 600px) {
   .grid.cols3, .grid.cols2 { grid-template-columns: 1fr; }
-  .site-head .wrap { flex-wrap: wrap; row-gap: 12px; padding-top: 14px; padding-bottom: 14px; }
+  .site-head .wrap { flex-wrap: wrap; row-gap: 12px; height: auto; padding-top: 14px; padding-bottom: 14px; }
   .site-head nav {
     order: 3;
     width: 100%;
