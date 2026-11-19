@@ -410,7 +410,19 @@ table.plain tr:last-child td { border-bottom: none; }
 }
 @media (max-width: 600px) {
   .grid.cols3, .grid.cols2 { grid-template-columns: 1fr; }
+  .site-head .wrap { gap: 10px; }
+  .site-head nav { gap: 6px; }
   .site-head nav a.hide-sm { display: none; }
+  .site-head nav a {
+    font-size: 12.5px;
+    padding: 8px 11px;
+    border-radius: 9px;
+    white-space: nowrap;
+  }
+  .site-head nav .nav-find {
+    border: 1px solid rgb(255 255 255 / 0.22);
+    color: #dbe2ff;
+  }
   .hero .wrap { padding: 60px 22px 70px; }
   .band { padding: 44px 24px; }
 }
