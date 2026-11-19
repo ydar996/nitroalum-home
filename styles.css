@@ -485,3 +485,22 @@ table.plain tr:last-child td { border-bottom: none; }
   vertical-align: -3px;
   margin-right: 4px;
 }
+
+/* Labeled mock dashboard - replaces skeleton styling */
+.mc em { height: auto; width: auto; background: none; font-style: normal; font-size: 10px; font-weight: 600; color: #8d9bd8; }
+.mc b { height: auto; width: auto; margin: 4px 0 0; background: none; font-size: 19px; font-weight: 800; color: #fff; letter-spacing: -0.02em; }
+.mc em.s { width: auto; }
+.mock-head b { width: auto; height: auto; margin-left: auto; background: none; font-size: 10.5px; font-weight: 700; color: #8d9bd8; }
+.mock-funds { flex: 1; display: flex; flex-direction: column; gap: 9px; }
+.mock-funds div { display: flex; align-items: center; gap: 8px; font-size: 11.5px; }
+.mock-funds i { width: 8px; height: 8px; border-radius: 3px; flex: none; }
+.mock-funds span { flex: 1; color: #b9c2ee; font-weight: 600; }
+.mock-funds b { color: #fff; font-weight: 700; font-size: 11.5px; }
+.mock-donut span { font-size: 12px; font-weight: 800; color: #fff; }
+.mock-donut span::after { display: none; }
+.mock-ranks { display: flex; flex-direction: column; gap: 9px; padding-top: 6px; }
+.mr { display: flex; align-items: center; gap: 10px; font-size: 11px; }
+.mr span { width: 88px; flex: none; color: #b9c2ee; font-weight: 600; }
+.mr .mbar { flex: 1; }
+.mr b { color: #fff; font-weight: 700; font-size: 10.5px; min-width: 34px; text-align: right; }
+.mock-cap { text-align: center; font-size: 11.5px; color: #7d8ac4; margin: 10px 0 0; font-weight: 600; }
