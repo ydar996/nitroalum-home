@@ -593,6 +593,18 @@ body.assoc .site-head .cta { background: var(--grad); }
   .aud { grid-template-columns: 1fr; }
 }
 
-.hero .hero-branch { margin: 18px 0 0; font-size: 13.5px; color: #93a0d8; }
-.hero .hero-branch a { color: #a5b4fc; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgb(165 180 252 / 0.45); }
-.hero .hero-branch a:hover { color: #fff; }
+.hero .hero-branch { margin: 22px 0 0; font-size: 13.5px; color: #b9c2ee; font-weight: 600; }
+.hero .hero-branch-pill {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 7px 14px;
+  border-radius: 99px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  background: rgb(15 118 110 / 0.35);
+  border: 1px solid rgb(45 212 191 / 0.55);
+  transition: background 0.15s, border-color 0.15s;
+}
+.hero .hero-branch-pill:hover { background: rgb(15 118 110 / 0.6); border-color: #5eead4; }
