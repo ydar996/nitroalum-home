@@ -432,6 +432,9 @@ table.plain tr:last-child td { border-bottom: none; }
   }
   .site-foot .cols { margin-left: 0; gap: 44px; }
   .hero .wrap { padding: 60px 22px 70px; }
+  .hero .eyebrow { font-size: 11px; padding: 6px 10px; white-space: nowrap; }
+  .hero .hero-branch { margin-top: 26px; }
+  .hero .hero-branch-pill { display: block; width: fit-content; margin: 10px 0 0; padding: 9px 16px; font-size: 13.5px; }
   .band { padding: 44px 24px; }
 }
 @media (prefers-reduced-motion: reduce) {
